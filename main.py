@@ -1,18 +1,26 @@
-print("Jornada de Dados")
+import time
+# x = int(input("Please enter an integer: "))
 
-#Variáveis
-idade = 34
-nome = "Gilson"
+# if x < 0:
+#     x = 0
+#     print('Negative changed to zero')
+# elif x == 0:
+#     print('Zero')
+# elif x == 1:
+#     print('Single')
+# else:
+#     print('More')
 
-#Print
-print(idade)
+# for i in range(1,5):
+#     print(i)
 
-#Soma
-nova_idade = idade + 10
-print(nova_idade)
+# lista_alunos = ["gilson", "rafael", "fabio"]
 
-#Lista
-lista = [1,2,3,4,5]
+# for aluno in lista_alunos:
+#     print(aluno)
 
-#Métodos
-lista_invertida = lista.reverse()
+condicao = True
+
+while condicao:
+    print("Execute minha ETL")
+    time.sleep(5)
